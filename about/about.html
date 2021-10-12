@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>index</title>
+    </head>
+
+    <body>
+        <ol>
+            <li><a href="http://example.com">абсолютная ссылка на example.com</a> </li>
+            <li><a href="https://example.com">абсолютная по https</a>   </li>
+            <li><a href="ftp://@ftp.example.com/file.txt">ссылка на ftp без авторизации</a>  </li>
+            <li><a href="ftp://user123:123@ftp.example.com/file.txt">ссылка на ftp с авторизацией</a>  </li>
+            <li><a href="ftp://user123:123@ftp.example.com/file.txt">ссылка на ftp с авторизацией</a>  </li>
+            <li><a href="https://example.com#kor">ссылка на самый верх example.com</a>  </li>
+            <li><a href="https://index.html#galom">ссылка на форму на текущем сайте</a>  </li>
+            <li><a href="http://example.com?parametr1=value1&parametr2=value2"> ссылка с параметрами </a>  </li>
+            <li><a> ссылка без href </a>  </li>
+            <li><a href=""> ссылка с пустым href </a>  </li>
+            <li><a href="http://example.com" rel="nofollow">ссылка с запрещенным переходом по поисковикам </a>  </li>
+            <li><a href="http://example.com" rel="nofollow"><noindex>ссылка с запрещенным переходом по поисковикам</noindex></a>  </li>
+            <li><a> ash nazg <a href="gimbatul.com">gimbatul</a></a>  </li>
+            <li><a href="index.html"><img src="image.jpg" alt="Цветок" style="width: 200px;" /></a> </li>
+
+            <li><img src="image.jpg" alt="Цветок" usemap = "#dolguldor" style="width: 400px;" /> 
+            <map name="dolguldor">
+            <area shape = "rect" coords = "0,0,50,100" href = "index.html" alt = "Прямоугольный цветок" >
+            <area shape = "socol" coords = "100,50,300,100" href = "index.html" alt = "Круглый цветок" >
+            </map></li>
+
+            <li><a href="index.html">относительная ссылка на текущий каталог</a> </li>
+            <li><a href="about/index.html">относительная ссылка в каталоге about</a> </li>
+
+
+        </body>
+
+ </html>
